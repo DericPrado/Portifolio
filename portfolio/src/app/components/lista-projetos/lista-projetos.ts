@@ -6,8 +6,8 @@ import { CommonModule } from '@angular/common';
   selector: 'app-project-list',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './project-list.component.html',
-  styleUrls: ['./project-list.component.css']
+  templateUrl: '../../components/lista-projetos/lista-projetos.html',
+  styleUrls: ['../../components/lista-projetos/lista-projetos.css']
 })
 export class ProjectListComponent implements OnInit {
   projects: any[] = [];
