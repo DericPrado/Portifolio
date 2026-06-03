@@ -1,10 +1,56 @@
 [
   {
     "id": 1,
-    "title": "",
-    "description": "",
-    "impact": "",
-    "technologies": [],
-    "githubUrl": ""
+    "title": "API de Gestão para Clínica Médica",
+    "description": "Desenvolvimento de uma API RESTful para o gerenciamento de médicos e consultas, com arquitetura em camadas baseada nos princípios de Domain-Driven Design (DDD).",
+    "impact": "Garantia de consistência dos dados através da implementação de regras de negócio rígidas, atuando na prevenção de conflitos de agenda e processamento de atualizações parciais otimizadas.",
+    "technologies": [
+      "C#",
+      ".NET 8",
+      "Arquitetura DDD",
+      "In-Memory Database",
+      "RESTful API"
+    ],
+    "githubUrl": "https://github.com/DericPrado/ClinicaMedica"
+  },
+  {
+    "id": 2,
+    "title": "Adivinhador de Números (Console App)",
+    "description": "Aplicação interativa de terminal desenvolvida para exercitar a lógica de programação estrita e os fundamentos do ecossistema .NET. O sistema gera valores pseudoaleatórios e guia o usuário em um sistema de adivinhação baseado em dicas lógicas.",
+    "impact": "Implementação de estruturas de controle de fluxo, manipulação de estado em memória, loops condicionais e processamento de entradas e saídas (I/O) em tempo de execução, gerenciando dinamicamente os níveis de dificuldade do usuário.",
+    "technologies": [
+      "C#",
+      ".NET 8",
+      "Console Application",
+      "Lógica Estruturada"
+    ],
+    "githubUrl": "https://github.com/DericPrado/AdivinhadorDeNumeros"
+  },
+  {
+    "id": 3,
+    "title": "API de Gerenciamento de Tarefas (TaskList)",
+    "description": "Desenvolvimento de uma API RESTful em TypeScript para o gerenciamento completo do ciclo de vida de tarefas, implementando as operações fundamentais de um CRUD e utilizando um banco de dados em memória para processamento ágil.",
+    "impact": "Aplicação de tipagem estática avançada e estruturação clara de roteamento (endpoints HTTP GET, POST, PUT e DELETE), garantindo segurança, manutenibilidade e confiabilidade na manipulação do estado dos dados.",
+    "technologies": [
+      "TypeScript", 
+      "Node.js", 
+      "RESTful API",
+      "CRUD",
+      "In-Memory Database"
+    ],
+    "githubUrl": "https://github.com/DericPrado/TaskList"
+  },
+  {
+    "id": 4,
+    "title": "Motor de Cálculo de Precificação",
+    "description": "Aplicação em C# desenvolvida para automatizar e calcular métricas financeiras, determinando o preço ideal de venda de produtos com base no custo dinâmico de insumos, rendimento de produção e margem de lucro desejada.",
+    "impact": "Tradução de regras de negócios do mundo real para algoritmos matemáticos estruturados. Implementação de processamento de dados de entrada dinâmicos (I/O) em tempo de execução para automação de rotinas financeiras de pequenos empreendedores.",
+    "technologies": [
+      "C#", 
+      ".NET", 
+      "Console Application",
+      "Lógica de Negócios"
+    ],
+    "githubUrl": "https://github.com/DericPrado/CalculaLucro"
   }
 ]
