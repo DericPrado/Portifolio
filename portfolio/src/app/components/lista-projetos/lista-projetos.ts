@@ -1,23 +1,29 @@
-import { Component, OnInit } from '@angular/core';
-import { DataService } from '../../services/data';
-import { CommonModule } from '@angular/common';
+import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
+import { PortfolioService } from '../../services/portfolio';
 
 @Component({
-  selector: 'app-project-list',
+  selector: 'app-projects',
   standalone: true,
-  imports: [CommonModule],
   templateUrl: './lista-projetos.html',
   styleUrls: ['./lista-projetos.css']
 })
-export class ProjectListComponent implements OnInit {
-  projects: any[] = [];
+export class ListaProjetosComponent implements OnInit {
+  projectsList: any[] = [];
 
-  constructor(private dataService: DataService) {}
+  constructor(
+    private portfolioService: PortfolioService,
+    private cdr: ChangeDetectorRef
+  ) {}
 
   ngOnInit(): void {
-    this.dataService.getProjects().subscribe({
-      next: (data) => this.projects = data,
-      error: (err) => console.error('Erro ao carregar o JSON', err)
+    this.portfolioService.getProjects().subscribe({
+      next: (data) => {
+        this.projectsList = data;
+        this.cdr.detectChanges(); // Garantindo que a tela atualize na hora!
+      },
+      error: (err) => {
+        console.error('Erro ao carregar projetos:', err);
+      }
     });
   }
 }
