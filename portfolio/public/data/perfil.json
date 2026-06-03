@@ -1,0 +1,11 @@
+{
+    "name": "Deric Prado",
+    "title": "Desenvolvedor Back-end | Analista de Sistemas",
+    "location": "Araxá, MG",
+    "about": "Estudante de Ciência da Computação (Cruzeiro do Sul Virtual) com sólida experiência em suporte N2 e análise de sistemas. Focado no ecossistema .NET, C# e arquitetura de banco de dados SQL Server. Tenho paixão por otimizar processos, aplicar automações e resolver problemas complexos através de código limpo e APIs bem estruturadas.",
+    "socialLinks": {
+        "github": "https://github.com/DericPrado",
+        "linkedin": "https://www.linkedin.com/in/dericprado-dev/",
+        "email": "dericprado@gmail.com"
+    }
+}

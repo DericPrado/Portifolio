@@ -1,0 +1,26 @@
+<section class="projects-section">
+    <h2>Projetos em Destaque</h2>
+
+    <div class="projects-grid">
+        @for (proj of projectsList; track proj.id) {
+        <div class="project-card">
+            <div class="project-content">
+                <h3>{{ proj.title }}</h3>
+                <p class="description">{{ proj.description }}</p>
+
+                <div class="tech-tags">
+                    @for (tech of proj.technologies; track $index) {
+                    <span class="tag">{{ tech }}</span>
+                    }
+                </div>
+            </div>
+
+            <div class="project-footer">
+                <a [href]="proj.githubUrl" target="_blank" class="btn-github">Ver Repositório</a>
+            </div>
+        </div>
+        } @empty {
+        <p>Carregando projetos...</p>
+        }
+    </div>
+</section>

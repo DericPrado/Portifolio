@@ -1,0 +1,22 @@
+@if (profileData) {
+  <section class="profile-container">
+    <div class="profile-header">
+      <h1>{{ profileData.name }}</h1>
+      <h2>{{ profileData.title }}</h2>
+      <p class="location">📍 {{ profileData.location }}</p>
+    </div>
+
+    <div class="profile-about">
+      <h3>Sobre mim</h3>
+      <p>{{ profileData.about }}</p>
+    </div>
+
+    <div class="profile-links">
+      <a [href]="profileData.socialLinks.github" target="_blank" class="btn-link">GitHub</a>
+      <a [href]="profileData.socialLinks.linkedin" target="_blank" class="btn-link">LinkedIn</a>
+      <a [href]="'mailto:' + profileData.socialLinks.email" class="btn-link email-btn">E-mail</a>
+    </div>
+  </section>
+} @else {
+  <p>Carregando perfil...</p>
+}

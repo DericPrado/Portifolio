@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "role": "Analista de Suporte N1",
+        "company": "Bit Tech",
+        "period": "Junho de 2021 – Outubro de 2025",
+        "description": "Atuação focada na resolução de problemas sistêmicos complexos e otimização de rotinas de suporte.",
+        "achievements": [
+            "Desenvolvimento e implementação de soluções de automação utilizando C#, resultando na redução de 300% no tempo de resposta e atendimento.",
+            "Atuação como mentor técnico para novos colaboradores, acelerando o processo de onboarding e elevando a qualidade técnica da equipe.",
+            "Análise e manipulação de dados em SQL Server para troubleshooting e garantia de integridade sistêmica."
+        ]
+    }
+]
