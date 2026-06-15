@@ -1,0 +1,11 @@
+{
+    "name": "Deric Prado",
+    "title": "Desenvolvedor Back-end .NET | Analista Desenvolvedor",
+    "location": "Araxá, MG, Brasil",
+    "about": "Desenvolvedor Back-end focado no ecossistema .NET (C# e .NET 8), com sólida base acadêmica em Ciência da Computação. Minha trajetória profissional começou no suporte técnico, onde desenvolvi uma visão única sobre a disponibilidade de sistemas e a resolução de incidentes complexos. Hoje, aplico essa experiência na construção de soluções escaláveis e eficientes. Atuo na criação de APIs RESTful, na modelagem e otimização de dados avançada em SQL Server (T-SQL) e na sustentação de serviços na nuvem Microsoft Azure. Sou movido pela resolução de problemas e focado em engenharia de software de qualidade, aplicando práticas de Clean Code, arquitetura DDD e testes unitários.",
+    "socialLinks": {
+        "github": "https://github.com/DericPrado",
+        "linkedin": "https://www.linkedin.com/in/dericprado-dev/",
+        "email": "dericprado@gmail.com"
+    }
+}

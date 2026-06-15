@@ -1,0 +1,94 @@
+.projects-section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.projects-section h2 {
+    font-size: 2rem;
+    color: #1a1a1a;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 25px;
+}
+
+.project-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project-content {
+    padding: 20px;
+}
+
+.project-content h3 {
+    margin-top: 0;
+    color: #0056b3;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+}
+
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tag {
+    background-color: #eef4fb;
+    color: #0056b3;
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.project-footer {
+    padding: 15px 20px;
+    background-color: #fcfcfc;
+    border-top: 1px solid #eee;
+    border-radius: 0 0 8px 8px;
+    text-align: right;
+}
+
+.btn-github {
+    display: inline-block;
+    background-color: #24292e;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.btn-github:hover {
+    background-color: #000;
+}

@@ -1,0 +1,24 @@
+<section class="experience-section">
+    <h2>Experiência Profissional</h2>
+
+    <div class="experience-list">
+        @for (exp of experiencesList; track exp.id) {
+        <div class="experience-card">
+            <div class="experience-header">
+                <h3>{{ exp.role }}</h3>
+                <span class="period">{{ exp.period }}</span>
+            </div>
+            <h4 class="company">{{ exp.company }}</h4>
+            <p class="description">{{ exp.description }}</p>
+
+            <ul class="achievements">
+                @for (achievement of exp.achievements; track $index) {
+                <li>{{ achievement }}</li>
+                }
+            </ul>
+        </div>
+        } @empty {
+        <p>Carregando experiências...</p>
+        }
+    </div>
+</section>

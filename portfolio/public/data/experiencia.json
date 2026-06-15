@@ -1,0 +1,28 @@
+[
+    {
+        "id": 2,
+        "role": "Analista de Sistemas",
+        "company": "Bit Tech",
+        "period": "Outubro de 2025 – Presente",
+        "description": "Atuação com foco em desenvolvimento back-end, sustentação de sistemas e resolução de incidentes críticos em nível de código e banco de dados.",
+        "achievements": [
+            "Desenvolvimento de novas features, construção de APIs RESTful e atuação direta na resolução de bugs (hotfixes) utilizando o ecossistema .NET (C# e .NET 8).",
+            "Manipulação diária e configuração avançada de dados no SQL Server, atuando na otimização de consultas estruturadas (T-SQL), indexação e tratamento de dados JSON para troubleshooting.",
+            "Arquitetura e implementação de soluções de automação em C#, resultando em uma redução histórica de 300% no tempo médio de resposta e atendimento sistêmico.",
+            "Análise investigativa para garantia de integridade sistêmica e correção de falhas complexas em ambiente de produção."
+        ]
+    },
+    {
+        "id": 1,
+        "role": "Analista de Suporte N1",
+        "company": "Bit Tech",
+        "period": "Junho de 2021 – Outubro de 2025",
+        "description": "Atuação focada na análise de dados, melhoria contínua dos processos de atendimento e suporte técnico estruturado.",
+        "achievements": [
+            "Desenvolvimento e manutenção de scripts estruturados em banco de dados para aumentar a agilidade e precisão na resolução de chamados.",
+            "Atuação como mentor técnico para novos colaboradores, acelerando o processo de onboarding e elevando a régua de qualidade técnica da equipe.",
+            "Aplicação prática das diretrizes do ITIL 4 no gerenciamento, triagem e ciclo de vida de incidentes.",
+            "Gestão de acessos e manutenção de usuários, garantindo conformidade e segurança sistêmica para clientes internos e externos."
+        ]
+    }
+]
